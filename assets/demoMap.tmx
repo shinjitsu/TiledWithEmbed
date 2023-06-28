@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="Tiles" tilewidth="64" tileheight="64" tilecount="6" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="64" height="64" source="clay_tile_64_01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="grass_01_tile_64_01.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="ice_tile_64_01.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="paving_01_tile_64_02.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="paving_02_tile_64_01.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="sand_01_tile_64_01.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="15" height="15">
+  <data encoding="csv">
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,3,3,3,3,3,3,3,3,5,5,5,5,5,
+5,5,3,3,3,3,3,3,3,3,5,5,5,5,5,
+5,5,3,3,3,3,3,3,3,3,5,5,5,5,5,
+5,5,3,3,3,3,3,3,3,3,5,5,5,5,5,
+5,5,3,3,3,3,3,3,3,3,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+4,4,4,4,4,4,4,4,4,4,4,2,4,4,4,
+4,2,2,2,1,1,1,1,1,1,1,2,1,1,4,
+4,2,2,2,1,1,1,1,1,1,1,2,1,1,4,
+4,2,2,2,2,2,2,2,2,2,2,2,1,1,4,
+4,2,2,2,1,1,1,1,1,1,1,1,1,1,4,
+4,2,2,2,2,2,2,2,2,2,2,2,1,1,4,
+4,2,2,2,2,2,2,2,2,2,2,2,1,1,4,
+4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+</data>
+ </layer>
+</map>
